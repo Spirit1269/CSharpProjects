@@ -1,0 +1,14 @@
+C:\Users\Spirit\OneDrive\Desktop\CSharpProjects\TestProjects\bin\Debug\net8.0\TestProjects.exe
+C:\Users\Spirit\OneDrive\Desktop\CSharpProjects\TestProjects\bin\Debug\net8.0\TestProjects.deps.json
+C:\Users\Spirit\OneDrive\Desktop\CSharpProjects\TestProjects\bin\Debug\net8.0\TestProjects.runtimeconfig.json
+C:\Users\Spirit\OneDrive\Desktop\CSharpProjects\TestProjects\bin\Debug\net8.0\TestProjects.dll
+C:\Users\Spirit\OneDrive\Desktop\CSharpProjects\TestProjects\bin\Debug\net8.0\TestProjects.pdb
+C:\Users\Spirit\OneDrive\Desktop\CSharpProjects\TestProjects\obj\Debug\net8.0\TestProjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Spirit\OneDrive\Desktop\CSharpProjects\TestProjects\obj\Debug\net8.0\TestProjects.AssemblyInfoInputs.cache
+C:\Users\Spirit\OneDrive\Desktop\CSharpProjects\TestProjects\obj\Debug\net8.0\TestProjects.AssemblyInfo.cs
+C:\Users\Spirit\OneDrive\Desktop\CSharpProjects\TestProjects\obj\Debug\net8.0\TestProjects.csproj.CoreCompileInputs.cache
+C:\Users\Spirit\OneDrive\Desktop\CSharpProjects\TestProjects\obj\Debug\net8.0\TestProjects.dll
+C:\Users\Spirit\OneDrive\Desktop\CSharpProjects\TestProjects\obj\Debug\net8.0\refint\TestProjects.dll
+C:\Users\Spirit\OneDrive\Desktop\CSharpProjects\TestProjects\obj\Debug\net8.0\TestProjects.pdb
+C:\Users\Spirit\OneDrive\Desktop\CSharpProjects\TestProjects\obj\Debug\net8.0\TestProjects.genruntimeconfig.cache
+C:\Users\Spirit\OneDrive\Desktop\CSharpProjects\TestProjects\obj\Debug\net8.0\ref\TestProjects.dll
