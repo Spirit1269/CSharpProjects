@@ -6,27 +6,67 @@ string[] pettingZoo =
     "goats", "iguanas", "kangaroos", "lemurs", "llamas", "macaws", 
     "ostriches", "pigs", "ponies", "rabbits", "sheep", "tortoises",
 };
-RandomizeAnimals();
+
+PlanSchoolVisit("School A");
+PlanSchoolVisit("School B", 3);
+PlanSchoolVisit("School C", 2);
+
+void PlanSchoolVisit(string schoolName, int groups = 6)
+{
+    RandomizeAnimals();
+    string[,] group1 = AssignGroup(groups);
+    Console.WriteLine(schoolName);
+    PrintGroup(group1);
+}
+
+// RandomizeAnimals();
+// string[,] group = AssignGroup();
+// PrintGroup(group);
 
 //three visiting schools
-string[,] schools = 
-{
-{"School A", "6"},{"School B", "3"} , {"School C", "2"}
-};
+//string[] schoolName = {"School A","School B", "School C"};
 
 //Randomize the animals
-string RandomizeAnimals()
+void RandomizeAnimals()
 {
     Random random = new Random();
-    int randomIndex = random.Next(0, pettingZoo.Length);
-    int i = 0;
-   while (i <= 6)
-   {
+    for (int i = 0; i <pettingZoo.Length; i++)
+    {
+        int r = random.Next(i, pettingZoo.Length);
 
-   }
+        string temp = pettingZoo[i];
+        pettingZoo[i] = pettingZoo[r];
+        pettingZoo[r] = temp;
+    }
+
 }
 //Assign the animals to the correct number of groups
 
-//Print the school name
+string [,] AssignGroup(int groups)
+{
+    string[,] result = new string[groups, pettingZoo.Length/groups];
+    int start = 0;
 
-//pring the animal groups
+    for( int i= 0; i < groups; i++)
+    {
+        for(int j = 0; j <result.GetLength(1); j++)
+        {
+            result [i, j] = pettingZoo[start++];
+        }
+    }
+    return result;
+}
+
+//print the animal groups
+void PrintGroup(string[,] groups)
+{
+    for (int i = 0; i < groups.GetLength(0); i++) 
+    {
+        Console.Write($"Group {i + 1}: ");
+        for (int j = 0; j < groups.GetLength(1); j++) 
+        {
+            Console.Write($"{groups[i,j]}  ");
+        }
+        Console.WriteLine();
+    }
+}
